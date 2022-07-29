@@ -16,7 +16,7 @@ class UpdateCagefs(Actor):
 
     name = 'update_cagefs'
     consumes = ()
-    produces = (Report,)
+    produces = ()
     tags = (FirstBootPhaseTag, IPUWorkflowTag)
 
     def process(self):
